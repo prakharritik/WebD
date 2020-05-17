@@ -75,13 +75,14 @@
   #mainhead
   {
   font-family:broadway;
-  font-size:4em;
+  font-size:4vw;
   background-color:black;
   color:white;
   text-shadow: .4vw .4vw .5vw blue;
   box-shadow: .4vw .4vw .5vw blue;
   border-radius:2vw;
   color:yellow;
+  margin-bottom: 70px;
   }
 
   #whatwedohead {
@@ -105,13 +106,13 @@
   }
   #marq2
   {display:block;
-  background-color:purple;}
+  background-color:purple;
+   }
   #marq{
   font-family:algerian;
   color:white;
   left:2px;
-  font-size:30px;
-
+  font-size:3vw;
   animation-name:movi;
    animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -153,12 +154,12 @@
   .img1{
   border:2px solid red;
   width:100%;
-  height:300px;
+  height:50%;
   }
   .img3{
-  border:2px solid black;
+  border:2px solid red;
   width:100%;
-  height:300px;
+  height:50%;
   }
   }
   /********** Medium devices only **********/
@@ -179,7 +180,7 @@
      .img1{
      border:2px solid black;
      width:100%;
-     height:300px;
+     height:50%;
     }
      .img3{
     border:2px solid black;
@@ -198,15 +199,15 @@
      margin-bottom: 30px;
     }
     .img1{
-      border:2px solid black;
-    width:50%;
+    border:2px solid red;
+    width:100%;
     height:300px;
     display:block;
     float:left;
     }
      .img3{
-    border:2px solid black;
-    width:50%;
+    border:2px solid red;
+    width:100%;
     height:300px;
     display:block;
     float:left;
@@ -243,3 +244,9 @@
   font-family:arial; background-color:silver;color:green;font-size:20px;
   padding:3vw;display:inline-block;
   }
+ .row{
+  font-family:arial; 
+  color:green;
+  font-size:20px;
+  font-weight: bold;
+ }
