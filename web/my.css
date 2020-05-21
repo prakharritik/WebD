@@ -196,7 +196,7 @@
   }
   }
    /********** Small devices only **********/
-  @media  (max-width: 767px) {
+  @media (min-width: 401px) and (max-width: 767px) {
    .col-sm-11{
       width: 90%;
       height:30%;
@@ -246,7 +246,7 @@
      }
     #menuimg{
      height:30%;
-     margin-left: 45%;
+     margin-left: 30%;
     }
   }
   .help {

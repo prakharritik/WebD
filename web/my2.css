@@ -1,0 +1,30 @@
+body{
+  background-color:#ffe4b5;
+  border-style:ridge;
+  border-width:2vw;
+  border-color:black;
+  padding:1vw;
+  }
+h1{
+	color: white;
+	font-size: 100px;
+	background: black;
+	display: initial;
+	vertical-align: middle;
+}
+p{
+	clear: left;
+}
+.img{
+	height: 250px;
+	width: 300px;
+	float: left;
+	margin-left: 30%;
+}
+ @media (max-width: 400px) {
+}
+
+ }
+ @media  (min-width: 401px) and(max-width: 767px) {
+
+ }
