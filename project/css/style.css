@@ -1,0 +1,253 @@
+* {
+  box-sizing: border-box;
+}
+ body{
+ 	margin-left: 50px;
+ }
+.bar{
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0px 0px 10px;
+ }
+ .burger{
+ 	margin-top: 40px;
+ 	cursor: pointer;
+ }
+
+.tabs-left {
+  padding: 0px 20px 20px 10px;
+  border: none;
+  margin-top: 50px;
+  position: absolute;
+}
+
+.tabs-left>li {
+  border: none;
+}
+.tabs-left>li>a:hover{
+	background-color: transparent;
+	border: none;
+}
+.tabs-left>li>a {
+  font-size: 25px;
+  color: #111;
+  background-color: transparent;
+}
+
+.tabs-left>li.active>a{
+	border: none;
+    background-color: transparent;
+}
+.tabs-left>li.active>a:hover
+{
+	background-color: transparent;
+    border: none;
+}
+.tabs-left>li.active>a:focus {
+   border: none;
+   font-weight: bolder;
+   background-color: transparent;
+}
+.image1{
+	top: 0;
+	height: 600px;
+	width:440px;
+	position: absolute;
+	margin-left: 200px;
+	border-radius: 0px 0px 30px 30px;
+}
+.im2{
+	top: 0;
+	height: 400px;
+	width:1000px;
+	position: absolute;
+	border-radius: 0px 0px 30px 30px;
+	opacity: 0.5;
+	margin-left: 200px;
+}
+.im3{
+	height: 50%;
+	width:100%;
+}
+.myhead{
+	left: 49%;
+	top:17%;
+	position: absolute;
+	font-size: 55px;
+	 border-bottom: 3px solid #DDDDDD;
+	background: -webkit-linear-gradient(45deg,#dc2d5f 15%, #33B0FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.p2{
+	font-size: 35px;
+	max-width: 30%;
+	left: 51%;
+	top:35%;
+	position: absolute;
+}
+.p3{
+	color: #C8C8C8;
+	position: absolute;
+	left: 50%;
+	top:55%;
+	font-size: 23px;
+	max-width: 33%;
+}
+.icon{
+	font-size: 36px;
+	color: #111;
+	float: right;
+	margin-left: 88%; 
+	top:40px;
+	position: absolute;
+}
+.icon:hover{
+	font-size: 40px;
+}
+.fa-linkedin {
+  color: #007bb5;
+}
+.fa-facebook {
+  color: #3B5998;
+}
+.fa-dribbble {
+  color: #ea4c89;
+}
+.fa-instagram{
+	 background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.sidenav {
+  margin-top: 50px;
+  margin-left: 85%;
+  padding: 0;
+  width: 200px;
+  position: absolute;
+  height: 100%;
+  overflow: auto;
+  font-size: 40px;
+}
+
+.sidenav a {
+  display: block;
+  padding: 30px;
+  text-decoration: none;
+}
+.buttons button{
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  font-family: arial-narrow;
+  cursor: pointer;
+  font-size: 30px;
+  border-radius: 40px;
+  width: 20%;
+  top:650px;
+}
+.button1{
+	position:absolute;
+	margin-left: 200px;
+	border: 0px;
+	color: white;
+	background-color: #ee2455;
+}
+.button2{
+	position:absolute;
+	margin-left: 50%;
+	border: 0px;
+	color: #24abee;
+	background-color: white;
+	border: 2px solid #24abee;
+}
+.slider{
+	height: 200px;
+	width:9px;
+	background: #111;
+	top: 500px;
+	position: absolute;
+	border-radius: 5px;
+}
+.sliderm{
+	height: 50px;
+	width:9px;
+	background: #ee2455;
+	margitop: 30%;
+	position: absolute;
+	border-radius: 5px;
+}
+.vertical-text {
+	position: absolute;
+	transform: rotate(-90deg);
+	transform-origin: left top 0;
+	font-size: 25px;
+	margin-left: .5%; 
+}
+.un1{
+	max-height: 9px;
+	background-image: linear-gradient(to right, #dc2d5f , #33B0FF);
+	max-width: 120px;
+	border-radius: 5px;
+	margin-left: 40px;
+	margin-top: 100px;
+}
+.un2{
+	max-height: 9px;
+	background-image: linear-gradient(to right, #dc2d5f , #33B0FF);
+	max-width: 140px;
+	border-radius: 5px;
+	margin-left: 40px;
+	margin-top: 270px;
+}
+.tab:not(.active) { display: none; }
+
+.content { transition: 3s all ease-out; }
+
+.content.animate { opacity: .3; }
+
+.row{
+	border-radius: 30px;
+	background-color: white;
+	border-width: 5px;
+	border-color: black;
+	max-width: 50%;
+	margin-top: 10px;
+	position: absolute;
+	margin-left: 250px; 
+}
+.row [class^="col-"] {
+  float: left;
+}
+.col-1-of-2 {
+  width: calc((100% - 5rem)/2);
+}
+.col-2-of-2 {
+  width: calc((100% - 6rem)/2);
+  background-color: #33B0FF;
+}
+.colu{
+	max-width: 150px;
+	display: inline-block;
+	margin-left: 10px;
+}
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
