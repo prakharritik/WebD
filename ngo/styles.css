@@ -1,0 +1,90 @@
+.logo{
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.head1{
+	font-size: 100px;
+	background: -webkit-linear-gradient(45deg,#16A085 15%, #F4D03F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-weight: bolder;
+}
+.head2{
+  font-size: 55px;
+  background: -webkit-linear-gradient(45deg,#dc2d5f 15%, #33B0FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+header{
+  background-color:  #FFE4BF;
+}
+.button1{
+  border: 0px;
+  color: white;
+  background: -webkit-linear-gradient(45deg,#5C258D 15%, #4389A2 100%);
+  margin-top: 30px;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  font-family: arial-narrow;
+  cursor: pointer;
+  font-size: 30px;
+  border-radius: 40px;
+  width:100%;
+}
+.im1{
+  height: 75%;
+  width:75%;
+  -webkit-animation: spin 50s infinite linear;
+  margin-left: 15%;
+   border-radius: 8px;
+}
+@-webkit-keyframes spin {
+    0%  {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(360deg);}   
+}
+.m{
+  background-color: green;
+  margin-top: 10px;
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  animation: example1 5s infinite;
+}
+@keyframes example1 {
+0% {
+color: #ee2455;
+}
+50% {
+color: #24abee;
+}
+100% {
+color: yellow;
+}
+}
+.jumbotron{
+  color: white;
+  background-color: black;
+}
+.bgk{
+  background-image: url('b.jpg');
+  padding: 30px;
+}
+.pla{
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.8;
+  color: black;
+  font-weight: bolder;
+}
+.h{
+  font-size: 30px;
+}
