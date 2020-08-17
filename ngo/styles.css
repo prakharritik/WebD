@@ -4,6 +4,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+     border-radius: 8px;
 }
 .head1{
 	font-size: 100px;
@@ -43,8 +44,9 @@ header{
   height: 75%;
   width:75%;
   -webkit-animation: spin 50s infinite linear;
-  margin-left: 15%;
-   border-radius: 8px;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 @-webkit-keyframes spin {
     0%  {-webkit-transform: rotate(0deg);}
