@@ -205,7 +205,8 @@ width:140px;
   }
   .im2{
     position: absolute;right: 0;
-    width:100px!important;
+    width:110px!important;
+    height: 70px;
   }
   .im3{
     right: 0px;
