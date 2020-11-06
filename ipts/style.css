@@ -4,8 +4,12 @@ html{
 body{
   overflow-x: hidden;
 }
+
 .navbar-brand img{
 	width: 100px;
+}
+.log{
+  width: 150px!important; 
 }
 a:hover{
   text-decoration: none;
