@@ -1,15 +1,16 @@
 html{
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 body{
   overflow-x: hidden;
 }
 
 .navbar-brand img{
-	width: 100px;
+	width: 70px;
 }
 .log{
-  width: 150px!important; 
+  width: 100px!important; 
 }
 a:hover{
   text-decoration: none;
@@ -196,16 +197,22 @@ width:140px;
 }
 @media (max-width: 768px) {
   .im1{
-    width:50px!important;
+    width:70px!important;
   }
   .im2{
-    display: none;
+    position: absolute;right: 0;
+    width:100px!important;
   }
   .im3{
-    right: 0px;width:50px!important;
+    right: 0px;
   }
   .imgbg{
-    height: 150%;
+  
+        margin-top: -100px;
+    margin-left: -70px;
+
+    height: 700px;
+    width: 800px;
   }
   .logbutton{
     position: relative;
@@ -217,20 +224,29 @@ width:140px;
     margin-left: 15%;
   }
   .pl{
-    position: relative;
-    left: 0%;
+        left:0;
+  right:0;
+
+  margin-left: auto;
+  margin-right: auto;
   }
   .head1{
     font-size: 70px;
   }
   .head2{
     font-size: 20px;
+  }
+  .navbar{
+    background-color: transparent!important;
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {  
     .pl{
-    position: relative;
-    left: 0%;
+    left:0;
+  right:0;
+
+  margin-left: auto;
+  margin-right: auto;
   }
   .head1{
     font-size: 70px;
@@ -238,11 +254,15 @@ width:140px;
   .head2{
     font-size: 20px;
   }
-  .im2{
-    display: none;
+  .im1{
+    width:70px!important;
   }
-  .im3{
-    right: 0px;width:100px!important;
+  .im2{
+    position: absolute;right: 0;
+    width:100px!important;
+  }
+  .imgbg{
+        margin-left: 0px;
   }
 }
 @media (min-width: 992px){
