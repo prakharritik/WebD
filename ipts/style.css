@@ -147,7 +147,11 @@ margin-left: 25%;
 .pl{
 position: absolute;
 top:36%;
-left: 32%;
+        left:0;
+  right:0;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 .logbutton {
   margin: auto;
