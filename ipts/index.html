@@ -15,6 +15,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Roboto:400"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.12.1/TweenMax.min.js"></script>
   <style>
   	body{
   		font-family: Poppins;
@@ -59,7 +61,9 @@ background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
 <div class="pl" data-aos="fade-up">
 <H1 class="head1">IPTS</H1>
 <h3 class="head2">Learn It.  Code It .   Explore It.</h3>
-<a href="#" class="logbutton">Register</a>
+<a href="#"><div class="register-button" style="margin: auto;">
+  <p style="margin-top:1rem;">Register</p>
+</div></a>
 </div>
 
 <section id="eventdet" class=" mt-5">
@@ -382,6 +386,14 @@ So it's time to hold your horses and get ready to partcipate in this grand event
   </footer>
   <script>
   AOS.init();
+  var $button = document.querySelector('.register-button');
+$button.addEventListener('click', function() {
+  var duration = 0.3,
+      delay = 0.08;
+  TweenMax.to($button, duration, {scaleY: 1.6, ease: Expo.easeOut});
+  TweenMax.to($button, duration, {scaleX: 1.2, scaleY: 1, ease: Back.easeOut, easeParams: [3], delay: delay});
+  TweenMax.to($button, duration * 1.25, {scaleX: 1, scaleY: 1, ease: Back.easeOut, easeParams: [6], delay: delay * 3 });
+});
 </script>
 </body>
 </html>
